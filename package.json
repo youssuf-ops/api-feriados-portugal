@@ -1,0 +1,22 @@
+{
+  "name": "api-feriados",
+  "version": "1.0.0",
+  "description": "API pública de feriados portugueses com sistema de alertas e campanhas",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "keywords": [
+    "feriados",
+    "portugal",
+    "api"
+  ],
+  "author": "Youssuf Abdula — Albiclick",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
